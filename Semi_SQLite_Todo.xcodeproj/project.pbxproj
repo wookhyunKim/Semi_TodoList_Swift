@@ -24,6 +24,7 @@
 		C76897052A9A3C4400629EF1 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76897042A9A3C4400629EF1 /* func.swift */; };
 		C784C41B2A9B3ED900113A85 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C41A2A9B3ED900113A85 /* test.swift */; };
 		C784C41F2A9B3FA600113A85 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C41E2A9B3FA600113A85 /* test2.swift */; };
+		C784C4212A9B400D00113A85 /* tst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C4202A9B400D00113A85 /* tst.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		C76897042A9A3C4400629EF1 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
 		C784C41A2A9B3ED900113A85 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		C784C41E2A9B3FA600113A85 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
+		C784C4202A9B400D00113A85 /* tst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tst.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 				C76897042A9A3C4400629EF1 /* func.swift */,
 				C784C41A2A9B3ED900113A85 /* test.swift */,
 				C784C41E2A9B3FA600113A85 /* test2.swift */,
+				C784C4202A9B400D00113A85 /* tst.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -217,6 +220,7 @@
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
 				C784C41F2A9B3FA600113A85 /* test2.swift in Sources */,
 				C763CCA42A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift in Sources */,
+				C784C4212A9B400D00113A85 /* tst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
