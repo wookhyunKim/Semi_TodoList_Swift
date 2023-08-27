@@ -46,7 +46,7 @@ class WookDetailViewController: UIViewController {
         pickerView.delegate = self
         
     }
-    
+     
 
     @IBAction func btnUpdate(_ sender: UIButton) {
         
