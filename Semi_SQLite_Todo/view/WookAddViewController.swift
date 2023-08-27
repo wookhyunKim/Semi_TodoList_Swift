@@ -73,7 +73,7 @@ class WookAddViewController: UIViewController {
         let changer = ImageTypeChanger()
         
         let imageData = changer.uiImageToData(image: image) //UIImage -> Data
-        
+           
         
         database_Handler.insertAction(title, content, imageData)
     }
