@@ -22,10 +22,6 @@
 		C76896ED2A9A1BB300629EF1 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EA2A9A1BB300629EF1 /* pencil.png */; };
 		C76896EE2A9A1BB300629EF1 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EB2A9A1BB300629EF1 /* cart.png */; };
 		C76897052A9A3C4400629EF1 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76897042A9A3C4400629EF1 /* func.swift */; };
-		C784C41B2A9B3ED900113A85 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C41A2A9B3ED900113A85 /* test.swift */; };
-		C784C41F2A9B3FA600113A85 /* test2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C41E2A9B3FA600113A85 /* test2.swift */; };
-		C784C4212A9B400D00113A85 /* tst.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C4202A9B400D00113A85 /* tst.swift */; };
-		C784C4232A9B407200113A85 /* tsetsts.swift in Sources */ = {isa = PBXBuildFile; fileRef = C784C4222A9B407200113A85 /* tsetsts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,10 +42,6 @@
 		C76896EA2A9A1BB300629EF1 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		C76896EB2A9A1BB300629EF1 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		C76897042A9A3C4400629EF1 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
-		C784C41A2A9B3ED900113A85 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		C784C41E2A9B3FA600113A85 /* test2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test2.swift; sourceTree = "<group>"; };
-		C784C4202A9B400D00113A85 /* tst.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tst.swift; sourceTree = "<group>"; };
-		C784C4222A9B407200113A85 /* tsetsts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tsetsts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,10 +112,6 @@
 			children = (
 				C763CCA32A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift */,
 				C76897042A9A3C4400629EF1 /* func.swift */,
-				C784C41A2A9B3ED900113A85 /* test.swift */,
-				C784C41E2A9B3FA600113A85 /* test2.swift */,
-				C784C4202A9B400D00113A85 /* tst.swift */,
-				C784C4222A9B407200113A85 /* tsetsts.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -215,16 +203,12 @@
 				C763CC9F2A99B19500D61AB3 /* TodoList_wook.swift in Sources */,
 				C763CC812A99AE7C00D61AB3 /* AppDelegate.swift in Sources */,
 				C763CC992A99AEFF00D61AB3 /* WookTableViewCell.swift in Sources */,
-				C784C41B2A9B3ED900113A85 /* test.swift in Sources */,
 				C763CC832A99AE7C00D61AB3 /* SceneDelegate.swift in Sources */,
 				C763CC9D2A99AF1F00D61AB3 /* WookDetailViewController.swift in Sources */,
 				C76897052A9A3C4400629EF1 /* func.swift in Sources */,
 				C763CC9B2A99AF1600D61AB3 /* WookAddViewController.swift in Sources */,
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
-				C784C41F2A9B3FA600113A85 /* test2.swift in Sources */,
-				C784C4232A9B407200113A85 /* tsetsts.swift in Sources */,
 				C763CCA42A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift in Sources */,
-				C784C4212A9B400D00113A85 /* tst.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
