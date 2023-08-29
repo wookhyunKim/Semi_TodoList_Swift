@@ -263,6 +263,16 @@
             </objects>
             <point key="canvasLocation" x="1009.9236641221373" y="-169.01408450704227"/>
         </scene>
+        <!--Kang-->
+        <scene sceneID="6tF-Tz-spD">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Kang" storyboardName="Kang" id="D4q-k4-hJD" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="SQLite2" image="29" selectedImage="29" id="fMA-Fh-YVX"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wFP-01-SWn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3283" y="1414"/>
+        </scene>
         <!--Seola-->
         <scene sceneID="jIR-Az-Ern">
             <objects>
@@ -287,6 +297,7 @@
                         <segue destination="lWF-UI-bXf" kind="relationship" relationship="viewControllers" id="Xop-2z-XeY"/>
                         <segue destination="Nwd-wU-f60" kind="relationship" relationship="viewControllers" id="9KI-RR-EsI"/>
                         <segue destination="ZaO-AU-ui2" kind="relationship" relationship="viewControllers" id="mFF-QU-cTD"/>
+                        <segue destination="D4q-k4-hJD" kind="relationship" relationship="viewControllers" id="yN1-xo-YWi"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhC-Ed-dZk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

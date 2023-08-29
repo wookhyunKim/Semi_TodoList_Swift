@@ -25,7 +25,7 @@
                             </connections>
                         </searchBar>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCellKang" rowHeight="72" id="4j5-aX-KSc" customClass="KangTableViewCell" customModule="Semi_Sqlite_TodoList" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="myCellKang" rowHeight="72" id="4j5-aX-KSc" customClass="KangTableViewCell" customModule="Semi_SQLite_Todo" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="94" width="393" height="72"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="4j5-aX-KSc" id="Zxl-sJ-7nt">
@@ -107,7 +107,7 @@
         <!--Detail TodoList-->
         <scene sceneID="SIr-NY-vwk">
             <objects>
-                <viewController id="CAh-1n-fsm" customClass="KangDetailViewController" customModule="Semi_Sqlite_TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="CAh-1n-fsm" customClass="KangDetailViewController" customModule="Semi_SQLite_Todo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8Lp-fS-kNj">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -210,7 +210,7 @@
         <!--Add TodoList-->
         <scene sceneID="FuT-VR-bUF">
             <objects>
-                <viewController id="BQf-S1-53m" customClass="KangAddViewController" customModule="Semi_Sqlite_TodoList" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BQf-S1-53m" customClass="KangAddViewController" customModule="Semi_SQLite_Todo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Zf1-df-UZe">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -300,7 +300,7 @@
         <!--Navigation Controller-->
         <scene sceneID="52H-8X-7ky">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="O5u-01-Sbo" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Kang" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O5u-01-Sbo" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GPg-1K-HTq">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
