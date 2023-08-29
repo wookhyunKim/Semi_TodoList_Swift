@@ -269,16 +269,28 @@
                 <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="LdU-bF-8Hu" sceneMemberID="viewController">
                     <toolbarItems/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="uzo-Ss-uyw">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
                     <connections>
                         <segue destination="lWF-UI-bXf" kind="relationship" relationship="viewControllers" id="Xop-2z-XeY"/>
+                        <segue destination="ZaO-AU-ui2" kind="relationship" relationship="viewControllers" id="mFF-QU-cTD"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vhC-Ed-dZk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2402" y="1068"/>
+        </scene>
+        <!--LJU_Storyboard-->
+        <scene sceneID="U5e-Yf-Y9A">
+            <objects>
+                <viewControllerPlaceholder storyboardName="LJU_Storyboard" id="ZaO-AU-ui2" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="FireBase" image="29" id="car-Dx-7e0"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ep3-b3-HAz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1888" y="1201"/>
         </scene>
     </scenes>
     <resources>
