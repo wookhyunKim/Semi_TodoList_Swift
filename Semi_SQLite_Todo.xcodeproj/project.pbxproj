@@ -23,6 +23,13 @@
 		C76896EE2A9A1BB300629EF1 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EB2A9A1BB300629EF1 /* cart.png */; };
 		C76897052A9A3C4400629EF1 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76897042A9A3C4400629EF1 /* func.swift */; };
 		C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8CB1D2A9C3DB000C7027B /* Message.swift */; };
+		F1FF6E0C2A9D992B00531935 /* KangHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E0B2A9D992B00531935 /* KangHandler.swift */; };
+		F1FF6E0E2A9D994100531935 /* KangTodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E0D2A9D994100531935 /* KangTodoList.swift */; };
+		F1FF6E132A9D994B00531935 /* KangTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E0F2A9D994B00531935 /* KangTableViewController.swift */; };
+		F1FF6E142A9D994B00531935 /* KangTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E102A9D994B00531935 /* KangTableViewCell.swift */; };
+		F1FF6E152A9D994B00531935 /* KangAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E112A9D994B00531935 /* KangAddViewController.swift */; };
+		F1FF6E162A9D994B00531935 /* KangDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E122A9D994B00531935 /* KangDetailViewController.swift */; };
+		F1FF6E182A9D995600531935 /* Kang.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1FF6E172A9D995600531935 /* Kang.storyboard */; };
 		FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */; };
 		FC5635192A9D84C20010E9E1 /* LJU_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */; };
 		FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */; };
@@ -66,6 +73,13 @@
 		C76896EB2A9A1BB300629EF1 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		C76897042A9A3C4400629EF1 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
 		C7A8CB1D2A9C3DB000C7027B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		F1FF6E0B2A9D992B00531935 /* KangHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangHandler.swift; sourceTree = "<group>"; };
+		F1FF6E0D2A9D994100531935 /* KangTodoList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangTodoList.swift; sourceTree = "<group>"; };
+		F1FF6E0F2A9D994B00531935 /* KangTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangTableViewController.swift; sourceTree = "<group>"; };
+		F1FF6E102A9D994B00531935 /* KangTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangTableViewCell.swift; sourceTree = "<group>"; };
+		F1FF6E112A9D994B00531935 /* KangAddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangAddViewController.swift; sourceTree = "<group>"; };
+		F1FF6E122A9D994B00531935 /* KangDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KangDetailViewController.swift; sourceTree = "<group>"; };
+		F1FF6E172A9D995600531935 /* Kang.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Kang.storyboard; sourceTree = "<group>"; };
 		FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJU_TableViewController copy.swift"; sourceTree = "<group>"; };
 		FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_TableViewController.swift; sourceTree = "<group>"; };
 		FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_AddViewController.swift; sourceTree = "<group>"; };
@@ -133,6 +147,7 @@
 				C763CC8E2A99AE7D00D61AB3 /* Info.plist */,
 				FC5635422A9D85EF0010E9E1 /* GoogleService-Info.plist */,
 				FC5635302A9D84F50010E9E1 /* LJU_Storyboard.storyboard */,
+				F1FF6E172A9D995600531935 /* Kang.storyboard */,
 			);
 			path = Semi_SQLite_Todo;
 			sourceTree = "<group>";
@@ -140,6 +155,10 @@
 		C763CCA02A99B1CB00D61AB3 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				F1FF6E112A9D994B00531935 /* KangAddViewController.swift */,
+				F1FF6E122A9D994B00531935 /* KangDetailViewController.swift */,
+				F1FF6E102A9D994B00531935 /* KangTableViewCell.swift */,
+				F1FF6E0F2A9D994B00531935 /* KangTableViewController.swift */,
 				FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */,
 				FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */,
 				FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */,
@@ -155,6 +174,7 @@
 		C763CCA12A99B1D400D61AB3 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				F1FF6E0D2A9D994100531935 /* KangTodoList.swift */,
 				FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */,
 				FC5635232A9D84CE0010E9E1 /* LJU_DBModel.swift */,
 				FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */,
@@ -173,6 +193,7 @@
 		C763CCA22A99B1D900D61AB3 /* viewmodel */ = {
 			isa = PBXGroup;
 			children = (
+				F1FF6E0B2A9D992B00531935 /* KangHandler.swift */,
 				C763CCA32A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift */,
 				C76897042A9A3C4400629EF1 /* func.swift */,
 			);
@@ -268,6 +289,7 @@
 			files = (
 				C76896ED2A9A1BB300629EF1 /* pencil.png in Resources */,
 				FC5635432A9D85EF0010E9E1 /* GoogleService-Info.plist in Resources */,
+				F1FF6E182A9D995600531935 /* Kang.storyboard in Resources */,
 				C76896EC2A9A1BB300629EF1 /* clock.png in Resources */,
 				FC5635312A9D84F50010E9E1 /* LJU_Storyboard.storyboard in Resources */,
 				C763CC8D2A99AE7D00D61AB3 /* LaunchScreen.storyboard in Resources */,
@@ -292,17 +314,23 @@
 				C763CC812A99AE7C00D61AB3 /* AppDelegate.swift in Sources */,
 				C763CC992A99AEFF00D61AB3 /* WookTableViewCell.swift in Sources */,
 				C763CC832A99AE7C00D61AB3 /* SceneDelegate.swift in Sources */,
+				F1FF6E132A9D994B00531935 /* KangTableViewController.swift in Sources */,
 				FC5635252A9D84CE0010E9E1 /* LJU_InsertModel.swift in Sources */,
 				C763CC9D2A99AF1F00D61AB3 /* WookDetailViewController.swift in Sources */,
+				F1FF6E0C2A9D992B00531935 /* KangHandler.swift in Sources */,
+				F1FF6E162A9D994B00531935 /* KangDetailViewController.swift in Sources */,
 				FC56352B2A9D84CE0010E9E1 /* LJU_UpdateModel.swift in Sources */,
 				FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */,
 				FC56352C2A9D84CE0010E9E1 /* LJU_DBModel.swift in Sources */,
 				C76897052A9A3C4400629EF1 /* func.swift in Sources */,
 				FC56352A2A9D84CE0010E9E1 /* LJU_SelectModel.swift in Sources */,
+				F1FF6E152A9D994B00531935 /* KangAddViewController.swift in Sources */,
+				F1FF6E0E2A9D994100531935 /* KangTodoList.swift in Sources */,
 				C763CC9B2A99AF1600D61AB3 /* WookAddViewController.swift in Sources */,
 				FC56353F2A9D85B90010E9E1 /* LJU_TableViewCell.swift in Sources */,
 				FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */,
 				C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */,
+				F1FF6E142A9D994B00531935 /* KangTableViewCell.swift in Sources */,
 				FC56352D2A9D84CE0010E9E1 /* LJU_ImageUpload.swift in Sources */,
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
 				FC5635402A9D85B90010E9E1 /* LJU_CollectionViewCell.swift in Sources */,
