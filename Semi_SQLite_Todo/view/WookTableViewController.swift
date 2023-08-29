@@ -12,7 +12,6 @@ class WookTableViewController: UITableViewController {
     @IBOutlet var listTableView: UITableView!
     
     
-    
     var todoList : [TodoListWook] = []
     
     var status : Int = 0
