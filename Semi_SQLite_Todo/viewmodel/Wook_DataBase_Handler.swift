@@ -14,6 +14,7 @@ protocol QueryModelProtocolWook{
 }
 
 
+
 class DataBase_Handler_Wook{
     
     // SQLite db OpaquePointer 는 C 언어
