@@ -42,7 +42,6 @@
 		F1FF6E2E2A9D9EF900531935 /* PSA_DBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E272A9D9EF900531935 /* PSA_DBModel.swift */; };
 		F1FF6E2F2A9D9EF900531935 /* PSA_QueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E282A9D9EF900531935 /* PSA_QueryModel.swift */; };
 		F1FF6E302A9D9EF900531935 /* PSA_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1FF6E292A9D9EF900531935 /* PSA_Message.swift */; };
-		FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */; };
 		FC5635192A9D84C20010E9E1 /* LJU_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */; };
 		FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */; };
 		FC56351B2A9D84C20010E9E1 /* LJU_UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */; };
@@ -104,7 +103,6 @@
 		F1FF6E272A9D9EF900531935 /* PSA_DBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_DBModel.swift; sourceTree = "<group>"; };
 		F1FF6E282A9D9EF900531935 /* PSA_QueryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_QueryModel.swift; sourceTree = "<group>"; };
 		F1FF6E292A9D9EF900531935 /* PSA_Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_Message.swift; sourceTree = "<group>"; };
-		FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJU_TableViewController copy.swift"; sourceTree = "<group>"; };
 		FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_TableViewController.swift; sourceTree = "<group>"; };
 		FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_AddViewController.swift; sourceTree = "<group>"; };
 		FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_UpdateViewController.swift; sourceTree = "<group>"; };
@@ -189,7 +187,6 @@
 				F1FF6E102A9D994B00531935 /* KangTableViewCell.swift */,
 				F1FF6E0F2A9D994B00531935 /* KangTableViewController.swift */,
 				FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */,
-				FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */,
 				FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */,
 				FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */,
 				C763CC962A99AEEB00D61AB3 /* WookTableViewController.swift */,
@@ -359,7 +356,6 @@
 				F1FF6E162A9D994B00531935 /* KangDetailViewController.swift in Sources */,
 				F1FF6E202A9D9EDC00531935 /* PSA_AddViewController.swift in Sources */,
 				FC56352B2A9D84CE0010E9E1 /* LJU_UpdateModel.swift in Sources */,
-				FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */,
 				F1FF6E2B2A9D9EF900531935 /* PSA_UpdateModel.swift in Sources */,
 				F1FF6E2E2A9D9EF900531935 /* PSA_DBModel.swift in Sources */,
 				FC56352C2A9D84CE0010E9E1 /* LJU_DBModel.swift in Sources */,
