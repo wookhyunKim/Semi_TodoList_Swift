@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120B399C2A9D905E00E58A93 /* PSA_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39982A9D905E00E58A93 /* PSA_AddViewController.swift */; };
+		120B399D2A9D905E00E58A93 /* PSA_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39992A9D905E00E58A93 /* PSA_TableViewController.swift */; };
+		120B399E2A9D905E00E58A93 /* PSA_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B399A2A9D905E00E58A93 /* PSA_TableViewCell.swift */; };
+		120B399F2A9D905E00E58A93 /* PSA_DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B399B2A9D905E00E58A93 /* PSA_DetailViewController.swift */; };
+		120B39A42A9D907A00E58A93 /* PSA_UpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A02A9D907A00E58A93 /* PSA_UpdateModel.swift */; };
+		120B39A52A9D907A00E58A93 /* PSA_DeleteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A12A9D907A00E58A93 /* PSA_DeleteModel.swift */; };
+		120B39A62A9D907A00E58A93 /* PSA_InsertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A22A9D907A00E58A93 /* PSA_InsertModel.swift */; };
+		120B39A72A9D907A00E58A93 /* PSA_QueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A32A9D907A00E58A93 /* PSA_QueryModel.swift */; };
+		120B39AB2A9D908700E58A93 /* PSA_JSONModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A82A9D908700E58A93 /* PSA_JSONModel.swift */; };
+		120B39AC2A9D908700E58A93 /* PSA_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39A92A9D908700E58A93 /* PSA_Message.swift */; };
+		120B39AD2A9D908700E58A93 /* PSA_DBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120B39AA2A9D908700E58A93 /* PSA_DBModel.swift */; };
+		12D6EC3F2A9D8E430095067A /* Seola.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12D6EC3E2A9D8E430095067A /* Seola.storyboard */; };
 		C763CC812A99AE7C00D61AB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C763CC802A99AE7C00D61AB3 /* AppDelegate.swift */; };
 		C763CC832A99AE7C00D61AB3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C763CC822A99AE7C00D61AB3 /* SceneDelegate.swift */; };
 		C763CC882A99AE7C00D61AB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C763CC862A99AE7C00D61AB3 /* Main.storyboard */; };
@@ -48,6 +60,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		120B39982A9D905E00E58A93 /* PSA_AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_AddViewController.swift; sourceTree = "<group>"; };
+		120B39992A9D905E00E58A93 /* PSA_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_TableViewController.swift; sourceTree = "<group>"; };
+		120B399A2A9D905E00E58A93 /* PSA_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_TableViewCell.swift; sourceTree = "<group>"; };
+		120B399B2A9D905E00E58A93 /* PSA_DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_DetailViewController.swift; sourceTree = "<group>"; };
+		120B39A02A9D907A00E58A93 /* PSA_UpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_UpdateModel.swift; sourceTree = "<group>"; };
+		120B39A12A9D907A00E58A93 /* PSA_DeleteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_DeleteModel.swift; sourceTree = "<group>"; };
+		120B39A22A9D907A00E58A93 /* PSA_InsertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_InsertModel.swift; sourceTree = "<group>"; };
+		120B39A32A9D907A00E58A93 /* PSA_QueryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_QueryModel.swift; sourceTree = "<group>"; };
+		120B39A82A9D908700E58A93 /* PSA_JSONModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_JSONModel.swift; sourceTree = "<group>"; };
+		120B39A92A9D908700E58A93 /* PSA_Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_Message.swift; sourceTree = "<group>"; };
+		120B39AA2A9D908700E58A93 /* PSA_DBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PSA_DBModel.swift; sourceTree = "<group>"; };
+		12D6EC3E2A9D8E430095067A /* Seola.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Seola.storyboard; sourceTree = "<group>"; };
 		C763CC7D2A99AE7C00D61AB3 /* Semi_SQLite_Todo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Semi_SQLite_Todo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C763CC802A99AE7C00D61AB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C763CC822A99AE7C00D61AB3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +157,7 @@
 				C763CC8E2A99AE7D00D61AB3 /* Info.plist */,
 				FC5635422A9D85EF0010E9E1 /* GoogleService-Info.plist */,
 				FC5635302A9D84F50010E9E1 /* LJU_Storyboard.storyboard */,
+				12D6EC3E2A9D8E430095067A /* Seola.storyboard */,
 			);
 			path = Semi_SQLite_Todo;
 			sourceTree = "<group>";
@@ -148,6 +173,10 @@
 				C763CC982A99AEFF00D61AB3 /* WookTableViewCell.swift */,
 				C763CC9A2A99AF1600D61AB3 /* WookAddViewController.swift */,
 				C763CC9C2A99AF1F00D61AB3 /* WookDetailViewController.swift */,
+				120B39982A9D905E00E58A93 /* PSA_AddViewController.swift */,
+				120B399B2A9D905E00E58A93 /* PSA_DetailViewController.swift */,
+				120B399A2A9D905E00E58A93 /* PSA_TableViewCell.swift */,
+				120B39992A9D905E00E58A93 /* PSA_TableViewController.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -166,6 +195,13 @@
 				FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */,
 				C763CC9E2A99B19500D61AB3 /* TodoList_wook.swift */,
 				C7A8CB1D2A9C3DB000C7027B /* Message.swift */,
+				120B39A12A9D907A00E58A93 /* PSA_DeleteModel.swift */,
+				120B39A22A9D907A00E58A93 /* PSA_InsertModel.swift */,
+				120B39A32A9D907A00E58A93 /* PSA_QueryModel.swift */,
+				120B39A02A9D907A00E58A93 /* PSA_UpdateModel.swift */,
+				120B39AA2A9D908700E58A93 /* PSA_DBModel.swift */,
+				120B39A82A9D908700E58A93 /* PSA_JSONModel.swift */,
+				120B39A92A9D908700E58A93 /* PSA_Message.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -266,6 +302,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D6EC3F2A9D8E430095067A /* Seola.storyboard in Resources */,
 				C76896ED2A9A1BB300629EF1 /* pencil.png in Resources */,
 				FC5635432A9D85EF0010E9E1 /* GoogleService-Info.plist in Resources */,
 				C76896EC2A9A1BB300629EF1 /* clock.png in Resources */,
@@ -284,32 +321,43 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				120B39AD2A9D908700E58A93 /* PSA_DBModel.swift in Sources */,
 				C763CC9F2A99B19500D61AB3 /* TodoList_wook.swift in Sources */,
 				FC5635282A9D84CE0010E9E1 /* LJU_ImageDown.swift in Sources */,
+				120B399D2A9D905E00E58A93 /* PSA_TableViewController.swift in Sources */,
 				FC5635192A9D84C20010E9E1 /* LJU_TableViewController.swift in Sources */,
 				FC5635412A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift in Sources */,
 				FC5635272A9D84CE0010E9E1 /* LJU_DeleteModel.swift in Sources */,
+				120B39AB2A9D908700E58A93 /* PSA_JSONModel.swift in Sources */,
 				C763CC812A99AE7C00D61AB3 /* AppDelegate.swift in Sources */,
 				C763CC992A99AEFF00D61AB3 /* WookTableViewCell.swift in Sources */,
+				120B39A62A9D907A00E58A93 /* PSA_InsertModel.swift in Sources */,
 				C763CC832A99AE7C00D61AB3 /* SceneDelegate.swift in Sources */,
+				120B399E2A9D905E00E58A93 /* PSA_TableViewCell.swift in Sources */,
 				FC5635252A9D84CE0010E9E1 /* LJU_InsertModel.swift in Sources */,
 				C763CC9D2A99AF1F00D61AB3 /* WookDetailViewController.swift in Sources */,
+				120B39A72A9D907A00E58A93 /* PSA_QueryModel.swift in Sources */,
+				120B399F2A9D905E00E58A93 /* PSA_DetailViewController.swift in Sources */,
 				FC56352B2A9D84CE0010E9E1 /* LJU_UpdateModel.swift in Sources */,
 				FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */,
 				FC56352C2A9D84CE0010E9E1 /* LJU_DBModel.swift in Sources */,
 				C76897052A9A3C4400629EF1 /* func.swift in Sources */,
+				120B39AC2A9D908700E58A93 /* PSA_Message.swift in Sources */,
 				FC56352A2A9D84CE0010E9E1 /* LJU_SelectModel.swift in Sources */,
 				C763CC9B2A99AF1600D61AB3 /* WookAddViewController.swift in Sources */,
 				FC56353F2A9D85B90010E9E1 /* LJU_TableViewCell.swift in Sources */,
 				FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */,
 				C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */,
 				FC56352D2A9D84CE0010E9E1 /* LJU_ImageUpload.swift in Sources */,
+				120B39A52A9D907A00E58A93 /* PSA_DeleteModel.swift in Sources */,
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
 				FC5635402A9D85B90010E9E1 /* LJU_CollectionViewCell.swift in Sources */,
 				FC5635262A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift in Sources */,
 				FC5635292A9D84CE0010E9E1 /* LJU_Message.swift in Sources */,
+				120B399C2A9D905E00E58A93 /* PSA_AddViewController.swift in Sources */,
 				C763CCA42A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift in Sources */,
 				FC56351B2A9D84C20010E9E1 /* LJU_UpdateViewController.swift in Sources */,
+				120B39A42A9D907A00E58A93 /* PSA_UpdateModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
