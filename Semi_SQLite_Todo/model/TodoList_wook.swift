@@ -8,7 +8,7 @@
 import Foundation
 
 
-class TodoList{
+class TodoListWook{
     var todo_id : Int  // todo PK
     var todo_seq : Int    //  순서바꿀때 정렬로 사용하기 위한 변수
     var todo_title : String //  todo 제목

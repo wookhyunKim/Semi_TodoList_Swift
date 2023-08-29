@@ -20,6 +20,7 @@ class WookTableViewCell: UITableViewCell {
     @IBOutlet weak var swOpen: UISwitch!
     
     
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

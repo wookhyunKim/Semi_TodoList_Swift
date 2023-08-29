@@ -22,6 +22,7 @@
 		C76896ED2A9A1BB300629EF1 /* pencil.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EA2A9A1BB300629EF1 /* pencil.png */; };
 		C76896EE2A9A1BB300629EF1 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EB2A9A1BB300629EF1 /* cart.png */; };
 		C76897052A9A3C4400629EF1 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76897042A9A3C4400629EF1 /* func.swift */; };
+		C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8CB1D2A9C3DB000C7027B /* Message.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C76896EA2A9A1BB300629EF1 /* pencil.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pencil.png; sourceTree = "<group>"; };
 		C76896EB2A9A1BB300629EF1 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		C76897042A9A3C4400629EF1 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
+		C7A8CB1D2A9C3DB000C7027B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			isa = PBXGroup;
 			children = (
 				C763CC9E2A99B19500D61AB3 /* TodoList_wook.swift */,
+				C7A8CB1D2A9C3DB000C7027B /* Message.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				C763CC9D2A99AF1F00D61AB3 /* WookDetailViewController.swift in Sources */,
 				C76897052A9A3C4400629EF1 /* func.swift in Sources */,
 				C763CC9B2A99AF1600D61AB3 /* WookAddViewController.swift in Sources */,
+				C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */,
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
 				C763CCA42A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift in Sources */,
 			);

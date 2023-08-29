@@ -52,7 +52,7 @@ class WookAddViewController: UIViewController {
             alertController.addAction(photoLibraryAlertAction)
             alertController.addAction(cancelAlertAction)
         
-            present(alertController, animated: true)
+            present(alertController, animated: false)
     }
     
     
@@ -60,7 +60,7 @@ class WookAddViewController: UIViewController {
     
     func openAlbum() {
             imagePickerController.sourceType = .photoLibrary
-            present(imagePickerController, animated: true)
+            present(imagePickerController, animated: false)
     }
     
     

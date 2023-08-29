@@ -9,8 +9,8 @@ import Foundation
 import SQLite3
 
 //protocol
-protocol QueryModelProtocol{
-    func itemDownloaded(items: [TodoList])
+protocol QueryModelProtocolWook{
+    func itemDownloaded(items: [TodoListWook])
 }
 
 
@@ -18,8 +18,8 @@ class DataBase_Handler_Wook{
     
     // SQLite db OpaquePointer 는 C 언어
     var db : OpaquePointer?
-    var todoList : [TodoList] = []
-    var delegate : QueryModelProtocol!
+    var todoList : [TodoListWook] = []
+    var delegate : QueryModelProtocolWook!
     
     
     init(){
@@ -36,7 +36,7 @@ class DataBase_Handler_Wook{
     func createDB(){
         // Table 만들기
         // todo 라는 table을 만들어서 did , dimageName, dcontent를 column으로 넣기
-        if sqlite3_exec(db, "CREATE TABLE IF NOT EXISTS todo (todo_id INTEGER PRIMARY KEY AUTOINCREMENT, todo_seq INTEGER ,todo_title TEXT,todo_content TEXT,todo_insertdate TEXT,todo_image BLOB, todo_open INTEGER DEFAULT 0, todo_status INTEGER DEFAULT 0)", nil, nil, nil) != SQLITE_OK{
+        if sqlite3_exec(db, "CREATE TABLE IF NOT EXISTS todo (todo_id INTEGER PRIMARY KEY AUTOINCREMENT, todo_seq INTEGER ,todo_title TEXT,todo_content TEXT,todo_insertdate TEXT,todo_image BLOB, todo_open INTEGER DEFAULT 1, todo_status INTEGER DEFAULT 0)", nil, nil, nil) != SQLITE_OK{
             let errMSG = String(cString: sqlite3_errmsg(db)!)
             print("error creating table : \(errMSG)")
             return
@@ -65,7 +65,7 @@ class DataBase_Handler_Wook{
             let open = Int(sqlite3_column_int(stmt,6))
             let status = Int(sqlite3_column_int(stmt,7))
             
-            todoList.append(TodoList(todo_id: id, todo_seq: seq, todo_title: title, todo_content: content, todo_insertdate: insertdate, todo_image: image, todo_open: open, todo_status: status))
+            todoList.append(TodoListWook(todo_id: id, todo_seq: seq, todo_title: title, todo_content: content, todo_insertdate: insertdate, todo_image: image, todo_open: open, todo_status: status))
         }
         DispatchQueue.main.async {
             // delegate에 todoList 값을 넣어주기
@@ -154,6 +154,48 @@ class DataBase_Handler_Wook{
         sqlite3_step(stmt)
     }
     
+    // status update
+    func updateStatus(_ id : Int, _ status : Int){
+        
+        var stmt : OpaquePointer?
+        // 한글정의
+        //let SQLITE_TRANSIENT = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
+        
+        let queryString = "UPDATE todo SET todo_status = ? WHERE todo_id = ?"
+        
+        //  sqlite3_prepare(db, queryString, -1, &stmt, nil) 이것만 있어도됌
+        sqlite3_prepare(db, queryString, -1, &stmt, nil)
+        
+        
+        // ? <- insert
+        // stmt , ? 순서 , 내용 , -1 : 한글 , SQLITE_TRANSIENT
+        sqlite3_bind_int(stmt, 1, Int32(status))
+        sqlite3_bind_int(stmt, 2, Int32(id))
+        
+        //  sqlite3_step(stmt) 이것만 있어도됌
+        sqlite3_step(stmt)
+    }
     
     
+    // 공개여부 open update
+    func updateOpen(_ id : Int, _ open : Int){
+        
+        var stmt : OpaquePointer?
+        // 한글정의
+        //let SQLITE_TRANSIENT = unsafeBitCast(-1, to: sqlite3_destructor_type.self)
+        
+        let queryString = "UPDATE todo SET todo_open = ? WHERE todo_id = ?"
+        
+        //  sqlite3_prepare(db, queryString, -1, &stmt, nil) 이것만 있어도됌
+        sqlite3_prepare(db, queryString, -1, &stmt, nil)
+        
+        
+        // ? <- insert
+        // stmt , ? 순서 , 내용 , -1 : 한글 , SQLITE_TRANSIENT
+        sqlite3_bind_int(stmt, 1, Int32(open))
+        sqlite3_bind_int(stmt, 2, Int32(id))
+        
+        //  sqlite3_step(stmt) 이것만 있어도됌
+        sqlite3_step(stmt)
+    }
 }
