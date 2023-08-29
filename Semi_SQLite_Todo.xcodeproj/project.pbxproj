@@ -23,6 +23,28 @@
 		C76896EE2A9A1BB300629EF1 /* cart.png in Resources */ = {isa = PBXBuildFile; fileRef = C76896EB2A9A1BB300629EF1 /* cart.png */; };
 		C76897052A9A3C4400629EF1 /* func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C76897042A9A3C4400629EF1 /* func.swift */; };
 		C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7A8CB1D2A9C3DB000C7027B /* Message.swift */; };
+		FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */; };
+		FC5635192A9D84C20010E9E1 /* LJU_TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */; };
+		FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */; };
+		FC56351B2A9D84C20010E9E1 /* LJU_UpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */; };
+		FC5635252A9D84CE0010E9E1 /* LJU_InsertModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56351C2A9D84CE0010E9E1 /* LJU_InsertModel.swift */; };
+		FC5635262A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */; };
+		FC5635272A9D84CE0010E9E1 /* LJU_DeleteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */; };
+		FC5635282A9D84CE0010E9E1 /* LJU_ImageDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56351F2A9D84CE0010E9E1 /* LJU_ImageDown.swift */; };
+		FC5635292A9D84CE0010E9E1 /* LJU_Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635202A9D84CE0010E9E1 /* LJU_Message.swift */; };
+		FC56352A2A9D84CE0010E9E1 /* LJU_SelectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635212A9D84CE0010E9E1 /* LJU_SelectModel.swift */; };
+		FC56352B2A9D84CE0010E9E1 /* LJU_UpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */; };
+		FC56352C2A9D84CE0010E9E1 /* LJU_DBModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635232A9D84CE0010E9E1 /* LJU_DBModel.swift */; };
+		FC56352D2A9D84CE0010E9E1 /* LJU_ImageUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5635242A9D84CE0010E9E1 /* LJU_ImageUpload.swift */; };
+		FC5635312A9D84F50010E9E1 /* LJU_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5635302A9D84F50010E9E1 /* LJU_Storyboard.storyboard */; };
+		FC5635342A9D85650010E9E1 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = FC5635332A9D85650010E9E1 /* FirebaseAnalytics */; };
+		FC5635362A9D85650010E9E1 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = FC5635352A9D85650010E9E1 /* FirebaseDatabase */; };
+		FC5635382A9D85650010E9E1 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = FC5635372A9D85650010E9E1 /* FirebaseFirestore */; };
+		FC56353A2A9D85650010E9E1 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = FC5635392A9D85650010E9E1 /* FirebaseStorage */; };
+		FC56353F2A9D85B90010E9E1 /* LJU_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56353C2A9D85B90010E9E1 /* LJU_TableViewCell.swift */; };
+		FC5635402A9D85B90010E9E1 /* LJU_CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56353D2A9D85B90010E9E1 /* LJU_CollectionViewCell.swift */; };
+		FC5635412A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC56353E2A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift */; };
+		FC5635432A9D85EF0010E9E1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC5635422A9D85EF0010E9E1 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +66,24 @@
 		C76896EB2A9A1BB300629EF1 /* cart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cart.png; sourceTree = "<group>"; };
 		C76897042A9A3C4400629EF1 /* func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = func.swift; sourceTree = "<group>"; };
 		C7A8CB1D2A9C3DB000C7027B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LJU_TableViewController copy.swift"; sourceTree = "<group>"; };
+		FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_TableViewController.swift; sourceTree = "<group>"; };
+		FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_AddViewController.swift; sourceTree = "<group>"; };
+		FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_UpdateViewController.swift; sourceTree = "<group>"; };
+		FC56351C2A9D84CE0010E9E1 /* LJU_InsertModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_InsertModel.swift; sourceTree = "<group>"; };
+		FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_CollectionImageCall.swift; sourceTree = "<group>"; };
+		FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_DeleteModel.swift; sourceTree = "<group>"; };
+		FC56351F2A9D84CE0010E9E1 /* LJU_ImageDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_ImageDown.swift; sourceTree = "<group>"; };
+		FC5635202A9D84CE0010E9E1 /* LJU_Message.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_Message.swift; sourceTree = "<group>"; };
+		FC5635212A9D84CE0010E9E1 /* LJU_SelectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_SelectModel.swift; sourceTree = "<group>"; };
+		FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_UpdateModel.swift; sourceTree = "<group>"; };
+		FC5635232A9D84CE0010E9E1 /* LJU_DBModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_DBModel.swift; sourceTree = "<group>"; };
+		FC5635242A9D84CE0010E9E1 /* LJU_ImageUpload.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_ImageUpload.swift; sourceTree = "<group>"; };
+		FC5635302A9D84F50010E9E1 /* LJU_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LJU_Storyboard.storyboard; sourceTree = "<group>"; };
+		FC56353C2A9D85B90010E9E1 /* LJU_TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_TableViewCell.swift; sourceTree = "<group>"; };
+		FC56353D2A9D85B90010E9E1 /* LJU_CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_CollectionViewCell.swift; sourceTree = "<group>"; };
+		FC56353E2A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LJU_UpdateCollectionViewCell.swift; sourceTree = "<group>"; };
+		FC5635422A9D85EF0010E9E1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +91,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC5635362A9D85650010E9E1 /* FirebaseDatabase in Frameworks */,
+				FC56353A2A9D85650010E9E1 /* FirebaseStorage in Frameworks */,
+				FC5635342A9D85650010E9E1 /* FirebaseAnalytics in Frameworks */,
+				FC5635382A9D85650010E9E1 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +120,7 @@
 		C763CC7F2A99AE7C00D61AB3 /* Semi_SQLite_Todo */ = {
 			isa = PBXGroup;
 			children = (
+				FC56353B2A9D85B10010E9E1 /* Cell */,
 				C76896E82A9A1BA800629EF1 /* images */,
 				C763CCA22A99B1D900D61AB3 /* viewmodel */,
 				C763CCA12A99B1D400D61AB3 /* model */,
@@ -86,6 +131,8 @@
 				C763CC892A99AE7D00D61AB3 /* Assets.xcassets */,
 				C763CC8B2A99AE7D00D61AB3 /* LaunchScreen.storyboard */,
 				C763CC8E2A99AE7D00D61AB3 /* Info.plist */,
+				FC5635422A9D85EF0010E9E1 /* GoogleService-Info.plist */,
+				FC5635302A9D84F50010E9E1 /* LJU_Storyboard.storyboard */,
 			);
 			path = Semi_SQLite_Todo;
 			sourceTree = "<group>";
@@ -93,6 +140,10 @@
 		C763CCA02A99B1CB00D61AB3 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				FC5635162A9D84C20010E9E1 /* LJU_AddViewController.swift */,
+				FC5635142A9D84C20010E9E1 /* LJU_TableViewController copy.swift */,
+				FC5635152A9D84C20010E9E1 /* LJU_TableViewController.swift */,
+				FC5635172A9D84C20010E9E1 /* LJU_UpdateViewController.swift */,
 				C763CC962A99AEEB00D61AB3 /* WookTableViewController.swift */,
 				C763CC982A99AEFF00D61AB3 /* WookTableViewCell.swift */,
 				C763CC9A2A99AF1600D61AB3 /* WookAddViewController.swift */,
@@ -104,6 +155,15 @@
 		C763CCA12A99B1D400D61AB3 /* model */ = {
 			isa = PBXGroup;
 			children = (
+				FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */,
+				FC5635232A9D84CE0010E9E1 /* LJU_DBModel.swift */,
+				FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */,
+				FC56351F2A9D84CE0010E9E1 /* LJU_ImageDown.swift */,
+				FC5635242A9D84CE0010E9E1 /* LJU_ImageUpload.swift */,
+				FC56351C2A9D84CE0010E9E1 /* LJU_InsertModel.swift */,
+				FC5635202A9D84CE0010E9E1 /* LJU_Message.swift */,
+				FC5635212A9D84CE0010E9E1 /* LJU_SelectModel.swift */,
+				FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */,
 				C763CC9E2A99B19500D61AB3 /* TodoList_wook.swift */,
 				C7A8CB1D2A9C3DB000C7027B /* Message.swift */,
 			);
@@ -129,6 +189,16 @@
 			path = images;
 			sourceTree = "<group>";
 		};
+		FC56353B2A9D85B10010E9E1 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC56353D2A9D85B90010E9E1 /* LJU_CollectionViewCell.swift */,
+				FC56353C2A9D85B90010E9E1 /* LJU_TableViewCell.swift */,
+				FC56353E2A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -145,6 +215,12 @@
 			dependencies = (
 			);
 			name = Semi_SQLite_Todo;
+			packageProductDependencies = (
+				FC5635332A9D85650010E9E1 /* FirebaseAnalytics */,
+				FC5635352A9D85650010E9E1 /* FirebaseDatabase */,
+				FC5635372A9D85650010E9E1 /* FirebaseFirestore */,
+				FC5635392A9D85650010E9E1 /* FirebaseStorage */,
+			);
 			productName = Semi_SQLite_Todo;
 			productReference = C763CC7D2A99AE7C00D61AB3 /* Semi_SQLite_Todo.app */;
 			productType = "com.apple.product-type.application";
@@ -173,6 +249,9 @@
 				Base,
 			);
 			mainGroup = C763CC742A99AE7C00D61AB3;
+			packageReferences = (
+				FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = C763CC7E2A99AE7C00D61AB3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -188,7 +267,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C76896ED2A9A1BB300629EF1 /* pencil.png in Resources */,
+				FC5635432A9D85EF0010E9E1 /* GoogleService-Info.plist in Resources */,
 				C76896EC2A9A1BB300629EF1 /* clock.png in Resources */,
+				FC5635312A9D84F50010E9E1 /* LJU_Storyboard.storyboard in Resources */,
 				C763CC8D2A99AE7D00D61AB3 /* LaunchScreen.storyboard in Resources */,
 				C763CC8A2A99AE7D00D61AB3 /* Assets.xcassets in Resources */,
 				C763CC882A99AE7C00D61AB3 /* Main.storyboard in Resources */,
@@ -204,15 +285,31 @@
 			buildActionMask = 2147483647;
 			files = (
 				C763CC9F2A99B19500D61AB3 /* TodoList_wook.swift in Sources */,
+				FC5635282A9D84CE0010E9E1 /* LJU_ImageDown.swift in Sources */,
+				FC5635192A9D84C20010E9E1 /* LJU_TableViewController.swift in Sources */,
+				FC5635412A9D85B90010E9E1 /* LJU_UpdateCollectionViewCell.swift in Sources */,
+				FC5635272A9D84CE0010E9E1 /* LJU_DeleteModel.swift in Sources */,
 				C763CC812A99AE7C00D61AB3 /* AppDelegate.swift in Sources */,
 				C763CC992A99AEFF00D61AB3 /* WookTableViewCell.swift in Sources */,
 				C763CC832A99AE7C00D61AB3 /* SceneDelegate.swift in Sources */,
+				FC5635252A9D84CE0010E9E1 /* LJU_InsertModel.swift in Sources */,
 				C763CC9D2A99AF1F00D61AB3 /* WookDetailViewController.swift in Sources */,
+				FC56352B2A9D84CE0010E9E1 /* LJU_UpdateModel.swift in Sources */,
+				FC5635182A9D84C20010E9E1 /* LJU_TableViewController copy.swift in Sources */,
+				FC56352C2A9D84CE0010E9E1 /* LJU_DBModel.swift in Sources */,
 				C76897052A9A3C4400629EF1 /* func.swift in Sources */,
+				FC56352A2A9D84CE0010E9E1 /* LJU_SelectModel.swift in Sources */,
 				C763CC9B2A99AF1600D61AB3 /* WookAddViewController.swift in Sources */,
+				FC56353F2A9D85B90010E9E1 /* LJU_TableViewCell.swift in Sources */,
+				FC56351A2A9D84C20010E9E1 /* LJU_AddViewController.swift in Sources */,
 				C7A8CB1E2A9C3DB000C7027B /* Message.swift in Sources */,
+				FC56352D2A9D84CE0010E9E1 /* LJU_ImageUpload.swift in Sources */,
 				C763CC972A99AEEB00D61AB3 /* WookTableViewController.swift in Sources */,
+				FC5635402A9D85B90010E9E1 /* LJU_CollectionViewCell.swift in Sources */,
+				FC5635262A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift in Sources */,
+				FC5635292A9D84CE0010E9E1 /* LJU_Message.swift in Sources */,
 				C763CCA42A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift in Sources */,
+				FC56351B2A9D84C20010E9E1 /* LJU_UpdateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +525,40 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC5635332A9D85650010E9E1 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		FC5635352A9D85650010E9E1 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		FC5635372A9D85650010E9E1 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		FC5635392A9D85650010E9E1 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC5635322A9D85650010E9E1 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C763CC752A99AE7C00D61AB3 /* Project object */;
 }
