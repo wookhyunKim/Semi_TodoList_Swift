@@ -8,14 +8,14 @@
 import Foundation
 import SQLite3
 
-protocol QueryModelProtocol {
+protocol QueryModelProtocolKang {
     func itemDownloaded(items: [TodoListKang])
 }
 
 class SqliteServer{
     var db: OpaquePointer?
     var stmt: OpaquePointer?
-    var delegate: QueryModelProtocol!
+    var delegate: QueryModelProtocolKang!
     
     init(){
         // SQLite 설정

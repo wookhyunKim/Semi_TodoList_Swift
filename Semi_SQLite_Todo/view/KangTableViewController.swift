@@ -9,6 +9,8 @@ import UIKit
 
 class KangTableViewController: UITableViewController {
 
+    
+
     @IBOutlet var tvTableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -234,7 +236,7 @@ class KangTableViewController: UITableViewController {
     
 }// End
 
-extension KangTableViewController: QueryModelProtocol{
+extension KangTableViewController: QueryModelProtocolKang{
     func itemDownloaded(items: [TodoListKang]) {
         todoListData = items
         self.tvTableView.reloadData()
