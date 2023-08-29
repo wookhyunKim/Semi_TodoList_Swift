@@ -59,12 +59,13 @@ class LJU_UpdateViewController: UIViewController {
         swTodoComplete.isOn = message.todoStatus!
         swPrivate.isOn = message.privateStatus!
         
-        let url = URL(string: "https://firebasestorage.googleapis.com/v0/b/semitodolist.appspot.com/o/cart.png?alt=media&token=0771cc04-e718-4573-88df-57b7fc885c7f")
+        let url = URL(string: message.image!)
         
         DispatchQueue.global().async {
             if let data = try? Data(contentsOf: url!){
                 DispatchQueue.main.async {
                     self.imgPreview.image = UIImage(data: data)
+                    self.imageUrl = url!
                 }
             }else{
                     print("이미지불러오기실패")
@@ -89,13 +90,13 @@ class LJU_UpdateViewController: UIViewController {
         presentPicker()
     }
     
-    
+    // 업데이트 버튼
     @IBAction func btnUpdate(_ sender: UIButton) {
         
         
         callAlert(alert_title: "Check", alert_Message: "Are you sure you want to apply the changes?", tfName: "update", btn: 2)
     }
-    
+    // 업데이트하기
     func updateAction(){
         
         // UpdateModel 연결
@@ -117,12 +118,14 @@ class LJU_UpdateViewController: UIViewController {
                 // 이미지업로드
                 let imageData = self.imgPreview.image?.pngData()
                 let upload = LJU_ImageUpload()
-                upload.imageUpload(image: imageData!, titleText: titleText, todoText: todoText)
+                upload.imageUploadUpdate(DocumentId: LJU_Message.documentId!, image: imageData!, title: titleText, todo: todoText, todoStatus: swTodoComplete.isOn, privateStatus: swPrivate.isOn)
+                
+                
                 
             }else{
                 // 이미지의 URL을 String으로 바꾸기
-                //let image:String  = imageUrl!.absoluteString
-                let image:String = "https://www.gstatic.com/mobilesdk/160503_mobilesdk/logo/2x/firebase_28dp.png"
+                let image:String  = imageUrl!.absoluteString
+                
 
                 updateDB.updateItems(DocumentId: LJU_Message.documentId!, image: image, title: titleText, todo: todoText, todoStatus: swTodoComplete.isOn, privateStatus: swPrivate.isOn)
 

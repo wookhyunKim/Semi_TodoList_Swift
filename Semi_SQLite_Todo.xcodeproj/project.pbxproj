@@ -211,15 +211,8 @@
 				F1FF6E282A9D9EF900531935 /* PSA_QueryModel.swift */,
 				F1FF6E242A9D9EF900531935 /* PSA_UpdateModel.swift */,
 				F1FF6E0D2A9D994100531935 /* KangTodoList.swift */,
-				FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */,
 				FC5635232A9D84CE0010E9E1 /* LJU_DBModel.swift */,
-				FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */,
-				FC56351F2A9D84CE0010E9E1 /* LJU_ImageDown.swift */,
-				FC5635242A9D84CE0010E9E1 /* LJU_ImageUpload.swift */,
-				FC56351C2A9D84CE0010E9E1 /* LJU_InsertModel.swift */,
 				FC5635202A9D84CE0010E9E1 /* LJU_Message.swift */,
-				FC5635212A9D84CE0010E9E1 /* LJU_SelectModel.swift */,
-				FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */,
 				C763CC9E2A99B19500D61AB3 /* TodoList_wook.swift */,
 				C7A8CB1D2A9C3DB000C7027B /* Message.swift */,
 			);
@@ -232,6 +225,13 @@
 				F1FF6E0B2A9D992B00531935 /* KangHandler.swift */,
 				C763CCA32A99B3BE00D61AB3 /* Wook_DataBase_Handler.swift */,
 				C76897042A9A3C4400629EF1 /* func.swift */,
+				FC56351E2A9D84CE0010E9E1 /* LJU_DeleteModel.swift */,
+				FC56351F2A9D84CE0010E9E1 /* LJU_ImageDown.swift */,
+				FC5635242A9D84CE0010E9E1 /* LJU_ImageUpload.swift */,
+				FC56351C2A9D84CE0010E9E1 /* LJU_InsertModel.swift */,
+				FC5635212A9D84CE0010E9E1 /* LJU_SelectModel.swift */,
+				FC5635222A9D84CE0010E9E1 /* LJU_UpdateModel.swift */,
+				FC56351D2A9D84CE0010E9E1 /* LJU_CollectionImageCall.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
