@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="weq-t5-N8v">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pEI-jC-e2y">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
@@ -85,6 +85,7 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="searchBar" destination="RRY-u2-0Zg" id="Zqq-kz-Q4J"/>
                         <outlet property="tvTodoList" destination="kzz-hB-mse" id="AeO-in-Vrf"/>
@@ -93,7 +94,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zyQ-07-hwb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1881.679389312977" y="-315.49295774647891"/>
+            <point key="canvasLocation" x="3733.5877862595416" y="-315.49295774647891"/>
         </scene>
         <!--Add Todo-->
         <scene sceneID="Fn6-M0-Bg1">
@@ -278,26 +279,105 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Thz-i2-glV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2895.419847328244" y="-601.4084507042254"/>
+            <point key="canvasLocation" x="4748.8549618320612" y="-601.4084507042254"/>
         </scene>
-        <!--FireBase-->
-        <scene sceneID="Bcw-79-g6G">
+        <!--firebase-->
+        <scene sceneID="w9g-Kx-Hpi">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="weq-t5-N8v" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="FireBase" image="29" id="Uwt-ZS-ZdR"/>
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="zZo-yg-iVq">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
+                <viewController id="SO4-jE-0XW" customClass="LJU_LoginViewController" customModule="Semi_SQLite_Todo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hbu-I3-NFG">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="todo.png" translatesAutoresizingMaskIntoConstraints="NO" id="A3F-T0-Wju">
+                                <rect key="frame" x="-23" y="-8" width="436" height="915"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H7M-WQ-ccL">
+                                <rect key="frame" x="94" y="243" width="29" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LEF-fk-K7p">
+                                <rect key="frame" x="144" y="238" width="163" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pw :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fMQ-bL-Ern">
+                                <rect key="frame" x="86" y="306" width="37" height="24"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nYU-PD-UVp">
+                                <rect key="frame" x="144" y="301" width="163" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HT5-Au-hOS">
+                                <rect key="frame" x="87" y="669" width="241" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" image="kakao_login_large_narrow" backgroundImage="kakao_login.png">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <backgroundConfiguration key="background" image="kakao_login.png"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnKaKao:" destination="SO4-jE-0XW" eventType="touchUpInside" id="H8c-7F-tba"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xvi-zx-3Be">
+                                <rect key="frame" x="86" y="372" width="230" height="33"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="Login">
+                                            <attributes>
+                                                <font key="NSFont" size="22" name="JCHEadA"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                    <color key="baseBackgroundColor" red="0.30892097950000003" green="0.76404386759999998" blue="0.77118813990000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                                <connections>
+                                    <action selector="btnLogin:" destination="SO4-jE-0XW" eventType="touchUpInside" id="21D-gu-dmQ"/>
+                                    <segue destination="Rxs-7l-KkZ" kind="show" id="3hS-iI-uO0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AHS-NZ-xmS">
+                                <rect key="frame" x="86" y="594" width="242" height="52"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="join the membership">
+                                    <color key="baseBackgroundColor" red="0.13506886360000001" green="0.19931286570000001" blue="0.47331017260000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </buttonConfiguration>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0cc-OV-Q4L"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="firebase" image="29" id="opE-uq-8pR"/>
+                    <navigationItem key="navigationItem" id="ubd-0v-yj3"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
-                        <segue destination="Rxs-7l-KkZ" kind="relationship" relationship="rootViewController" id="Ydy-ZD-SHQ"/>
+                        <outlet property="tfId" destination="LEF-fk-K7p" id="yJR-DB-kAH"/>
+                        <outlet property="tfPw" destination="nYU-PD-UVp" id="qOZ-8E-Y8J"/>
+                        <segue destination="Rxs-7l-KkZ" kind="show" identifier="goMain" id="SUO-Gd-UUe"/>
                     </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="B4r-db-D9A" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HtJ-2F-aXb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1043.5114503816794" y="-315.49295774647891"/>
+            <point key="canvasLocation" x="2695.419847328244" y="-315.49295774647891"/>
         </scene>
         <!--Update Todo-->
         <scene sceneID="YXL-ID-fU3">
@@ -498,11 +578,36 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XpC-Av-FHy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2895.419847328244" y="62.676056338028175"/>
+            <point key="canvasLocation" x="4749" y="115"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="0IF-ys-4ox">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pEI-jC-e2y" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="wbX-Jd-v4L"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yjt-rI-rVC">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SO4-jE-0XW" kind="relationship" relationship="rootViewController" id="Kvy-ye-Lat"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nbc-uu-Wx1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1768.7022900763359" y="-315.49295774647891"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="SUO-Gd-UUe"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="29" width="29" height="29"/>
+        <image name="kakao_login.png" width="183" height="45"/>
+        <image name="kakao_login_large_narrow" width="366" height="90"/>
+        <image name="todo.png" width="1123" height="1587"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>

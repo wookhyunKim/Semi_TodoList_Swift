@@ -113,24 +113,24 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hLV-9Q-puu">
-                                <rect key="frame" x="76" y="355.33333333333331" width="33" height="21"/>
+                                <rect key="frame" x="76" y="306.33333333333331" width="33" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="m2a-1J-XL7">
-                                <rect key="frame" x="76" y="384.33333333333331" width="240" height="26.666666666666686"/>
+                                <rect key="frame" x="76" y="335.33333333333331" width="240" height="26.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKa-RT-bO9">
-                                <rect key="frame" x="76" y="419" width="48" height="21"/>
+                                <rect key="frame" x="76" y="370" width="48" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="pdK-NL-qrh">
-                                <rect key="frame" x="76" y="448" width="240" height="221"/>
+                                <rect key="frame" x="76" y="399" width="240" height="221"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="221" id="yNK-To-gd5"/>
@@ -247,7 +247,7 @@
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tl7-ow-BiK">
-                                <rect key="frame" x="155" y="754" width="83" height="35"/>
+                                <rect key="frame" x="155" y="705" width="83" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="저장하기"/>
                                 <connections>
@@ -255,7 +255,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aS2-Lg-e4d">
-                                <rect key="frame" x="76" y="487.66666666666669" width="241" height="228.33333333333331"/>
+                                <rect key="frame" x="76" y="487.66666666666669" width="241" height="179.33333333333331"/>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -297,11 +297,13 @@
             </objects>
             <point key="canvasLocation" x="1881.679389312977" y="-421.12676056338029"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Kang_SQLite-->
         <scene sceneID="52H-8X-7ky">
             <objects>
                 <navigationController storyboardIdentifier="Kang" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="O5u-01-Sbo" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Kang_SQLite" image="29" id="bKQ-PJ-fNG"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="GPg-1K-HTq">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -317,6 +319,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="29" width="29" height="29"/>
         <image name="photo.artframe" catalog="system" width="128" height="93"/>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

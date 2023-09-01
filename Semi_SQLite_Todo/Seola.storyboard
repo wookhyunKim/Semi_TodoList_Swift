@@ -224,11 +224,13 @@
             </objects>
             <point key="canvasLocation" x="2038.9312977099237" y="-313.38028169014086"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--MySql-->
         <scene sceneID="tn0-kZ-bTw">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pr1-qY-YCZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="MySql" image="29" id="MK3-DZ-6zi"/>
                     <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="bwg-o7-EOZ">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -244,6 +246,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="29" width="29" height="29"/>
         <image name="list.bullet.clipboard" catalog="system" width="103" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
